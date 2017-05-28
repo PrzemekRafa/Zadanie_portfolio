@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
-    font-size: 1.2vw;
+    color: #291f1a;
 }
 
 #head {
@@ -15,11 +15,22 @@
     position: relative;
 }
 
+#head_txt {
+    height: 180px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 #menu {
     position: fixed;
     width: 100%;
     text-align: right;
     line-height: 60px;
+    z-index: 10;
 }
 
 #menu ul li {
@@ -68,6 +79,8 @@ h2 {
 h3 {
     font-weight: 100;
     font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 h1 span {
@@ -83,45 +96,52 @@ span {
     font-size: inherit;
 }
 
-#head_txt {
-    height: 200px;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
 section {
-    height: 550px;
     margin: auto;
+    box-shadow: 0px 2px 0px rgba(0,0,0,0.15);
+    overflow: hidden;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #about_photo {
-    width: 40%;
-    height: 550px;
-    background-image: url(../img/jan-nowak.jpg);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 40%;
-    left: 0;
-    position: absolute;
-    margin-top: 90px;
+    width: 50%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+
+#about_photo img {
+    max-height: 250px;
 }
 
 #about_txt {
-    position: absolute;
-    right: 0;
-    width: 60%;
-}
-
-#about_txt h3 {
-    line-height: 90px;
+    width: 50%;
+    display: inline-block;
+    float: left;
 }
 
 #about_txt p {
     padding-left: 20px;
     padding-right: 60px;
     line-height: 24px;
+}
+
+#skills p {
+    padding-left: 60px;
+    padding-right: 60px;
+    line-height: 24px;    
+}
+
+#figures {
+    text-align: center;
+}
+
+#figures figure{
+    display: inline-block;
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 35px;
 }
