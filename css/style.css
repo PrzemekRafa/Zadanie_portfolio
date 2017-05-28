@@ -8,6 +8,8 @@ body {
     color: #291f1a;
 }
 
+/* header */
+
 #head {
     background-image: url('../img/header-background.jpg');
     background-repeat: no-repeat;
@@ -27,6 +29,8 @@ body {
     left: 0;
     right: 0;
 }
+
+/* menu */
 
 #menu {
     position: fixed;
@@ -52,6 +56,7 @@ body {
     color: grey;
 }
 
+/* elementy wspólne */
 
 h1 {
     font-size: 140px;
@@ -102,10 +107,14 @@ span {
 section {
     margin: auto;
     box-shadow: 0px 2px 0px rgba(0,0,0,0.15);
-    overflow: hidden;
+    overflow: hidden;    
     padding-top: 40px;
     padding-bottom: 40px;
+    background-color: #f9fcfe;
+    margin-bottom: 2px;
 }
+
+/* sekcja o mnie */
 
 #about_photo {
     width: 50%;
@@ -130,6 +139,8 @@ section {
     line-height: 24px;
 }
 
+/* sekcja umiejętności */
+
 #skills p {
     padding-left: 60px;
     padding-right: 60px;
@@ -148,6 +159,8 @@ section {
     padding-right: 30px;
     padding-bottom: 35px;
 }
+
+/* sekcja portfolio */
 
 #portfolio_box {
     margin-left: 60px;
@@ -203,4 +216,67 @@ section {
     font-weight: 200;
     padding: 5%;
 }
+
+/* sekcja kontakt */
+#contact {
+    background-color: #213b50;
+    color: white;
+    text-align: left;
+    font-weight: 200;
+    font-size: 12px;
+    padding-left: 60px;
+    padding-right: 60px;
+    line-height: 24px;
+}
+
+#contact h3 {
+    text-align: left;
+}
+
+#contact p {
+    padding-top: 20px;
+}
+
+#contact p a {
+    color: #1ac056;
+}
+
+#contact > div {
+    float: left;
+    width: 50%;
+    display: inline-block;
+}
+
+.form_input:not(#button_input) {
+    float: left;
+    width: 100%;
+    display: inline-block;
+    background-color: #2b4a64;
+    color: white;
+    outline-style: none;
+    border-width: 0px;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+#form_box {
+    margin-top: 40px;
+}
+
+textarea#form_message.form_input {
+    height: 60px;
+}
+
+input[type=submit] {
+    background-color: #1ac056;
+    float: right;
+    width: 100px;
+    height: 40px;
+    color: white;
+    outline-style: none;
+    border-width: 2px;
+}
+
+
+
 

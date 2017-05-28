@@ -16,12 +16,13 @@
 </head>
 
 <body>
-<!-- przykład użycia fontawesome
-    <span>
-        <i class="fa fa-2x fa-times"></i>
-    </span>
--->
+   
+<!--   HEADER START -->
+   
     <header id="head">
+
+<!--   MENU NAWIGACYJNE START -->
+           
         <nav id="menu">
             <ul>
                 <li class="menu_item"><a href="#about">o mnie</a></li>
@@ -30,11 +31,19 @@
                 <li class="menu_item"><a href="#contact">kontakt</a></li>
             </ul>
         </nav>
+        
+<!--   MENU NAWIGACYJNE START -->
+        
         <div id="head_txt">
             <h1>Jan <span>Nowak</span></h1>
             <h2>Front-End-Developer</h2>
         </div>
     </header>
+
+<!--    HEADER END -->
+   
+<!--    SEKCJA O MNIE START -->
+   
     <section id=about>
         <h3>O <span>mnie</span></h3>
         <div id="about_photo">
@@ -46,6 +55,11 @@
             </p>
         </div>
     </section>
+    
+<!--    SEKCJA O MNIE END -->
+       
+<!--    SEKCJA UMIEJĘTNOŚCI START -->
+        
     <section id="skills">
         <h3>Moje <span>umiejętności</span></h3>
         <p>
@@ -70,8 +84,16 @@
             </figure>
         </div>
     </section>
+    
+<!--    SEKCJA UMIEJĘTNOŚCI END -->    
+
+<!--    SEKCJA PORTFOLIO START -->
+                
     <section id="portfolio">
         <h3>Moje <span>portfolio</span></h3>
+        
+<!--    BOXY Z HOVER START -->
+                
         <div id="portfolio_box">
             <div id="item_1" class="portfolio_item">
                 <div class=portfolio_maska>
@@ -119,9 +141,46 @@
                 </div>                 
             </div>
         </div>
+
+<!--    BOXY Z HOVER START -->   
+    
     </section>
-    <footer id="contact">
+    
+<!--    SEKCJA PORTFOLIO END -->
+   
+<!--    SEKCJA KONTAKT START -->
+    
+    <section id="contact">
+        <div id="adress_box">
+            <h3>Jan <span>Nowak</span></h3>
+                <p>
+                    ul. Mostowa 6/13<br>
+                    31-061 Kraków<br>
+                </p>
+                <p>
+                    tel.: 606 74 57 59<br>
+                    e-mail: 
+                    <a href="mailto:jan.nowak@mostowa.com">jan.nowak@mostowa.com</a>                    
+                </p>
+        </div>
+        
+        <div id="form_box">
+            <form id="email_box" action="https://formspree.io/przemyslaw.rafa@gmail.com" method="POST">
+            <input class="form_input" id="form_name" type="text" name="Imię i Nazwisko">
+            <input class="form_input" id="form_email" type="email" name="E-mail">
+            <textarea class="form_input" id="form_message" name="Wiadmość"></textarea>
+            <input class="form_input" id="button_input" type="submit" value="Wyślij">
+            </form>
+        </div>        
+    </section>
+    
+<!--    SEKCJA KONTAKT START -->
+   
+    <footer id="copyrights">
         
     </footer>
+    
+<!--    SEKCJA KONTAKT END -->
+    
 </body>
 </html>
