@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
     <title>Portfolio</title>
     
 <!--    Podpięcie czcionek -->
@@ -24,6 +25,8 @@
 <!--   MENU NAWIGACYJNE START -->
            
         <nav id="menu">
+            <label for="drop" class="toggle">Menu</label>
+            <input type="checkbox" id="drop">
             <ul>
                 <li class="menu_item"><a href="#about">o mnie</a></li>
                 <li class="menu_item"><a href="#skills">umiejętności</a></li>
@@ -165,17 +168,6 @@
                     e-mail: 
                     <a href="mailto:jan.nowak@mostowa.com">jan.nowak@mostowa.com</a>                    
                 </p>
-        </address>
-        
-        <div id="form_box">
-            <form id="email_box" action="https://formspree.io/przemyslaw.rafa@gmail.com" method="POST">
-                <input class="form_input" id="form_name" type="text" name="Imię i Nazwisko" placeholder="Imię i Nazwisko">
-                <input class="form_input" id="form_email" type="email" name="E-mail" placeholder="E-mail">
-                <textarea class="form_input" id="form_message" name="Wiadmość" placeholder="Treść wiadomości"></textarea>
-                <input class="form_input" id="button_input" type="submit" value="Wyślij">
-            </form>
-        </div>
-
         <div class="socialmedia-container">
             <a href="http://www.facebook.com" target="_blank">
                 <i class="fa fa-facebook social_icon" aria-hidden="true"></i>
@@ -190,6 +182,17 @@
                 <i class="fa fa-linkedin social_icon" aria-hidden="true"></i>
             </a>
         </div>              
+        </address>
+        
+        <div id="form_box">
+            <form id="email_box" action="https://formspree.io/przemyslaw.rafa@gmail.com" method="POST">
+                <input class="form_input" id="form_name" type="text" name="Imię i Nazwisko" placeholder="Imię i Nazwisko">
+                <input class="form_input" id="form_email" type="email" name="E-mail" placeholder="E-mail">
+                <textarea class="form_input" id="form_message" name="Wiadmość" placeholder="Treść wiadomości"></textarea>
+                <input class="form_input" id="button_input" type="submit" value="Wyślij">
+            </form>
+        </div>
+
     </section>
    
     <footer id="copyrights">

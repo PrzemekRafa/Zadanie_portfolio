@@ -64,6 +64,10 @@ body {
     color: grey;
 }
 
+#menu .toggle, [id=drop] {
+    display: none;
+}
+
 /* elementy wspólne */
 
 h1 {
@@ -94,8 +98,8 @@ h2 {
 
 h3 {
     font-weight: 100;
-    font-size: 1.5em;
-    margin-bottom: 1.9em;
+    font-size: 1.5rem;
+    margin-bottom: 1.9rem;
     text-align: center;
 }
 
@@ -124,28 +128,28 @@ section {
 
 /* sekcja o mnie */
 
-#about_photo {
-    width: 50%;
-    display: inline-block;
-    float: left;
-    text-align: center;
-}
+    #about_photo {
+        width: 50%;
+        display: inline-block;
+        float: left;
+        text-align: center;
+    }
 
-#about_photo img {
-    max-height: 15.5rem;
-}
+    #about_photo img {
+        max-height: 15.5rem;
+    }
 
-#about_txt {
-    width: 50%;
-    display: inline-block;
-    float: left;
-}
+    #about_txt {
+        width: 50%;
+        display: inline-block;
+        float: left;
+    }
 
-#about_txt p {
-    padding-left: 1.5vw;
-    padding-right: 7.5vw;
-    line-height: 1.5rem;
-}
+    #about_txt p {
+        padding-left: 1.5vw;
+        padding-right: 7.5vw;
+        line-height: 1.5rem;
+    }  
 
 /* sekcja umiejętności */
 
@@ -301,7 +305,8 @@ input[type=submit] {
 .socialmedia-container {
     width: 100%;
     display: inline-block;
-    padding: 2em 0 0 2em;
+    padding-top: 2em;
+    box-sizing: border-box;
 }
 
 .social_icon {
