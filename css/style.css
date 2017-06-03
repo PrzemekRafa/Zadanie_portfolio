@@ -312,6 +312,14 @@ input[type=submit] {
     box-sizing: border-box;
 }
 
+.mydiv-f:hover,
+.mydiv-g:hover,
+.mydiv-t:hover,
+.mydiv-l:hover {
+    color: #1ac056;
+    border-color: #1ac056;
+}
+
 .mydiv-f:before {
     content: "\f09a ";
     font-family: FontAwesome;
