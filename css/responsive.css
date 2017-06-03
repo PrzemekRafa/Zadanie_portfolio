@@ -1,3 +1,22 @@
+@media screen and (max-width: 1200px) {
+    
+    /* sekcja portfolio */
+
+    #portfolio_box #item_1, #item_2 {
+        width: 50%;
+        height: 22rem;
+        float: left;
+        background-size: cover;
+    }
+    
+    #portfolio_box #item_3 {
+        width: 100%;
+        height: 22rem;
+        float: left;
+        background-size: cover;
+    }
+}
+
 @media screen and (max-width: 768px) {
     
 }
